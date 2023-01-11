@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E1D919A296DB3820071B66E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D9199296DB3820071B66E /* Category.swift */; };
-		1E1D919C296DBCDB0071B66E /* Unread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D919B296DBCDB0071B66E /* Unread.swift */; };
-		1E1D919E296DBCE50071B66E /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D919D296DBCE50071B66E /* Read.swift */; };
 		1E3E31C5296DE517007A46CA /* TagListItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */; };
 		1E3E31C7296DE89C007A46CA /* AddTagListItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */; };
 		1E3E31C9296DEC0D007A46CA /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C8296DEC0D007A46CA /* LinkList.swift */; };
 		1E3E31CC296DED9B007A46CA /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31CB296DED9B007A46CA /* Migrator.swift */; };
-		1E3E31CE296E266C007A46CA /* UnreadLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31CD296E266C007A46CA /* UnreadLinks.swift */; };
-		1E3E31D0296E2954007A46CA /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31CF296E2954007A46CA /* Favourite.swift */; };
-		1E3E31D2296E3013007A46CA /* AddUnreadListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31D1296E3013007A46CA /* AddUnreadListScreen.swift */; };
+		1E3E31D6296EEA48007A46CA /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31D5296EEA48007A46CA /* LaunchScreenView.swift */; };
 		1ED9C610296C1EEC0000CDB4 /* NanoChanllengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */; };
 		1ED9C614296C1EED0000CDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C613296C1EED0000CDB4 /* Assets.xcassets */; };
 		1ED9C617296C1EED0000CDB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C616296C1EED0000CDB4 /* Preview Assets.xcassets */; };
@@ -51,16 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E1D9199296DB3820071B66E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		1E1D919B296DBCDB0071B66E /* Unread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unread.swift; sourceTree = "<group>"; };
-		1E1D919D296DBCE50071B66E /* Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
 		1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListItemScreen.swift; sourceTree = "<group>"; };
 		1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagListItemScreen.swift; sourceTree = "<group>"; };
 		1E3E31C8296DEC0D007A46CA /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		1E3E31CB296DED9B007A46CA /* Migrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
-		1E3E31CD296E266C007A46CA /* UnreadLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreadLinks.swift; sourceTree = "<group>"; };
-		1E3E31CF296E2954007A46CA /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
-		1E3E31D1296E3013007A46CA /* AddUnreadListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUnreadListScreen.swift; sourceTree = "<group>"; };
+		1E3E31D5296EEA48007A46CA /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		1ED9C60C296C1EEC0000CDB4 /* NanoChanllenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChanllenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeApp.swift; sourceTree = "<group>"; };
 		1ED9C613296C1EED0000CDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,12 +136,9 @@
 				1ED9C662296D89C60000CDB4 /* Screens */,
 				1ED9C65F296CA64F0000CDB4 /* Models */,
 				1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */,
-				1E3E31CF296E2954007A46CA /* Favourite.swift */,
-				1E1D919B296DBCDB0071B66E /* Unread.swift */,
-				1E1D919D296DBCE50071B66E /* Read.swift */,
-				1E1D9199296DB3820071B66E /* Category.swift */,
 				1ED9C646296C1F7A0000CDB4 /* LinkPage.swift */,
 				1ED9C640296C1F340000CDB4 /* ContentView-ViewModel.swift */,
+				1E3E31D5296EEA48007A46CA /* LaunchScreenView.swift */,
 			);
 			path = NanoChanllenge;
 			sourceTree = "<group>";
@@ -186,7 +173,6 @@
 			children = (
 				1ED9C660296CA6640000CDB4 /* TagList.swift */,
 				1E3E31C8296DEC0D007A46CA /* LinkList.swift */,
-				1E3E31CD296E266C007A46CA /* UnreadLinks.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,7 +183,6 @@
 				1ED9C663296D89F30000CDB4 /* AddTagListScreen.swift */,
 				1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */,
 				1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */,
-				1E3E31D1296E3013007A46CA /* AddUnreadListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -341,21 +326,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3E31D0296E2954007A46CA /* Favourite.swift in Sources */,
-				1E1D919E296DBCE50071B66E /* Read.swift in Sources */,
 				1E3E31C5296DE517007A46CA /* TagListItemScreen.swift in Sources */,
 				1ED9C661296CA6640000CDB4 /* TagList.swift in Sources */,
+				1E3E31D6296EEA48007A46CA /* LaunchScreenView.swift in Sources */,
 				1ED9C664296D89F30000CDB4 /* AddTagListScreen.swift in Sources */,
-				1E3E31CE296E266C007A46CA /* UnreadLinks.swift in Sources */,
 				1ED9C647296C1F7A0000CDB4 /* LinkPage.swift in Sources */,
-				1E1D919A296DB3820071B66E /* Category.swift in Sources */,
-				1E3E31D2296E3013007A46CA /* AddUnreadListScreen.swift in Sources */,
 				1ED9C641296C1F340000CDB4 /* ContentView-ViewModel.swift in Sources */,
 				1ED9C63F296C1F0A0000CDB4 /* HomePage.swift in Sources */,
 				1E3E31C7296DE89C007A46CA /* AddTagListItemScreen.swift in Sources */,
 				1E3E31CC296DED9B007A46CA /* Migrator.swift in Sources */,
 				1E3E31C9296DEC0D007A46CA /* LinkList.swift in Sources */,
-				1E1D919C296DBCDB0071B66E /* Unread.swift in Sources */,
 				1ED9C610296C1EEC0000CDB4 /* NanoChanllengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NanoChanllenge/Preview Content\"";
+				DEVELOPMENT_TEAM = AK4J6WF9ZA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -555,6 +536,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NanoChanllenge/Preview Content\"";
+				DEVELOPMENT_TEAM = AK4J6WF9ZA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

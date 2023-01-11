@@ -11,7 +11,7 @@ import RealmSwift
 struct HomePage: View {
     let string = NSLocalizedString("welcome", comment: "")//another way for writing the localization
       @StateObject private var viewModel = ViewModel()
-      @State var colorCircle: [Color] = [.red, .green]
+      @State var colorCircle: [Color] = [Color("Color"),Color("Color2"),Color("Color3"),Color("Color4"),Color("Color5")]
     @ObservedResults(TagList.self) var tagList
     @State private  var showSheet = false
     
@@ -19,35 +19,15 @@ struct HomePage: View {
     var body: some View {
         NavigationView{
             VStack{
-                
                 VStack{
-
-                    
-                    //Text("Categorize")
-                    NavigationLink{
-                        Unread()
-                    } label: {
-                        Text("Unread").bold().padding().frame(width: 400).background(Color("Blue")).clipShape(RoundedRectangle(cornerRadius: 10)).foregroundColor(.black)
-                    }
-                    NavigationLink{
-                        Favourite()
-                    }label: {
-                        Text("Favourite").bold().padding().frame(width: 400).background(Color("Blue")).clipShape(RoundedRectangle(cornerRadius: 10)).foregroundColor(.black)
+                    //Spacer()
+                    HStack {
                         
+                        Text("My Tags")
+                            
+                            .bold()
+                        .font(.title2)
                     }
-                    
-                    NavigationLink{
-                        Read()
-                    }label: {
-                        Text("Read").padding().bold().frame(width: 400).background(Color("Blue")).clipShape(RoundedRectangle(cornerRadius: 10)).foregroundColor(.black)
-                        
-                    }
-
-                }.padding(.bottom, 150).padding(.top,20)//.background(Color.pink)
-                
-                
-                VStack{
-                        Text("My Tags").bold().padding(.leading,-180)
                     
                     ScrollView{
                         LazyVGrid (columns: [GridItem(.fixed(180)), GridItem(.fixed(180))]){
@@ -58,25 +38,26 @@ struct HomePage: View {
                                 } label: {
                                     VStack{
                                        // NavigationLink(destination: LinkPage()){
-                                            Text(veggies.title).overlay(
+                                        Circle()
+                                            .fill(colorCircle.randomElement()!)
+                                            .frame(width: 160,
+                                                   height: 200).overlay(
                                                 
-                                                Circle()
-                                                    .stroke(colorCircle.randomElement()!,lineWidth: 5)
-                                                    .frame(width: 160,
-                                                           height: 200)
+                                                    Text(veggies.title)
                                              
                                                 
                                                 
-                                            ).padding(.top, 150).foregroundColor(Color(.black))
-                                        //}
+                                                   )
+                                                   //.padding(.top,40)
                                         
                                     }
+                                    //.padding()
                                 }
                            
                                 //.padding(.bottom,50)
                             }
         
-                        }.padding(.top,-60)
+                        }
                         
                     }.sheet(isPresented: $showSheet, content: {
                         AddTagListScreen()
@@ -91,8 +72,7 @@ struct HomePage: View {
                     }
                     
                     
-                }.background(.white).padding(.top,-130)
-
+                }.background(.white)
             }.navigationTitle("Link To").accessibilityAddTraits(.isHeader)
                 .toolbarBackground( Color("Blue"),for: .navigationBar)
                 .toolbarBackground(.visible, for: .navigationBar)

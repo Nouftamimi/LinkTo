@@ -6,5 +6,14 @@
   
 */
 
-"App name"="اسم الابلكيشن";
-"Unread"="لم يقرا";
+"Categorize"="التصنيفات";
+"Read"="مقروء";
+"Unread"="غير مقروء";
+"Favourite"="المفضلة";
+"My Tags"="اضافاتي";
+
+"Enter the title"="ادخل العنوان";
+"Enter the link title"="ادخل عنوان الرابط";
+"Add the URL link"="اضف الرابط";
+"Save"="حفظ";
+"Add Link"="رابط";

@@ -30,9 +30,7 @@ class Migrator {
                     newObject!["URLLink"] = ""
                     
                 }
-            }
- 
-            
+            }  
         }
         Realm.Configuration.defaultConfiguration = config
         let _ = try! Realm()

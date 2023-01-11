@@ -20,7 +20,7 @@ struct AddTagListScreen: View {
     var body: some View {
         NavigationView{
                         Form {
-                            TextField("Enter title" ,text: $title)
+                            TextField("Enter the title" ,text: $title)
                             //TextField("Add the link", text: $address)
 
                             Button {

@@ -18,10 +18,10 @@ struct AddUnreadListScreen: View {
    
 
     
-//    @Environment(\.dismiss) private var dismiss
-//    @State private var UnreadTitle: String = ""
-//    @State private var UnreadLinks: String = ""
-//    @State private  var showSheet = false
+    @Environment(\.dismiss) private var dismiss
+    @State private var UnreadTitle: String = ""
+    @State private var UnreadLinks: String = ""
+    @State private  var showSheet = false
 //
     var body: some View {
 //        Form {

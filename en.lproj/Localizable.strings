@@ -5,5 +5,15 @@
   Created by Nouf  on 16/06/1444 AH.
   
 */
-"App name"="App name";
-"Unread"="Unread";
+"App name" = "App name";
+"Unread" = "Unread";
+"Categorize" = "Categorize";
+"Read" = "Read";
+"Favuriet" = "Favuriet";
+"My Tags" = "My Tags";
+
+"Enter the title"="Enter the title";
+"Enter the link title"="Enter the link title";
+"Add the URL link"="Add the URL link";
+"Save"="Save";
+"Add Link"="Add Link";
