@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1D919A296DB3820071B66E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D9199296DB3820071B66E /* Category.swift */; };
+		1E1D919C296DBCDB0071B66E /* Unread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D919B296DBCDB0071B66E /* Unread.swift */; };
+		1E1D919E296DBCE50071B66E /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D919D296DBCE50071B66E /* Read.swift */; };
+		1E3E31C5296DE517007A46CA /* TagListItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */; };
+		1E3E31C7296DE89C007A46CA /* AddTagListItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */; };
+		1E3E31C9296DEC0D007A46CA /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C8296DEC0D007A46CA /* LinkList.swift */; };
+		1E3E31CC296DED9B007A46CA /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31CB296DED9B007A46CA /* Migrator.swift */; };
+		1E3E31CE296E266C007A46CA /* UnreadLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31CD296E266C007A46CA /* UnreadLinks.swift */; };
+		1E3E31D0296E2954007A46CA /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31CF296E2954007A46CA /* Favourite.swift */; };
+		1E3E31D2296E3013007A46CA /* AddUnreadListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31D1296E3013007A46CA /* AddUnreadListScreen.swift */; };
 		1ED9C610296C1EEC0000CDB4 /* NanoChanllengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */; };
-		1ED9C612296C1EEC0000CDB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C611296C1EEC0000CDB4 /* ContentView.swift */; };
 		1ED9C614296C1EED0000CDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C613296C1EED0000CDB4 /* Assets.xcassets */; };
 		1ED9C617296C1EED0000CDB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C616296C1EED0000CDB4 /* Preview Assets.xcassets */; };
-		1ED9C619296C1EED0000CDB4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C618296C1EED0000CDB4 /* Persistence.swift */; };
-		1ED9C61C296C1EED0000CDB4 /* NanoChanllenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C61A296C1EED0000CDB4 /* NanoChanllenge.xcdatamodeld */; };
 		1ED9C626296C1EED0000CDB4 /* NanoChanllengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C625296C1EED0000CDB4 /* NanoChanllengeTests.swift */; };
 		1ED9C630296C1EED0000CDB4 /* NanoChanllengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C62F296C1EED0000CDB4 /* NanoChanllengeUITests.swift */; };
 		1ED9C632296C1EED0000CDB4 /* NanoChanllengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C631296C1EED0000CDB4 /* NanoChanllengeUITestsLaunchTests.swift */; };
+		1ED9C63F296C1F0A0000CDB4 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */; };
+		1ED9C641296C1F340000CDB4 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C640296C1F340000CDB4 /* ContentView-ViewModel.swift */; };
+		1ED9C647296C1F7A0000CDB4 /* LinkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C646296C1F7A0000CDB4 /* LinkPage.swift */; };
+		1ED9C64F296C31550000CDB4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C651296C31550000CDB4 /* Localizable.strings */; };
+		1ED9C65C296C5DEA0000CDB4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED9C65B296C5DEA0000CDB4 /* Realm */; };
+		1ED9C65E296C5DEA0000CDB4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED9C65D296C5DEA0000CDB4 /* RealmSwift */; };
+		1ED9C661296CA6640000CDB4 /* TagList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C660296CA6640000CDB4 /* TagList.swift */; };
+		1ED9C664296D89F30000CDB4 /* AddTagListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C663296D89F30000CDB4 /* AddTagListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +51,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E1D9199296DB3820071B66E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1E1D919B296DBCDB0071B66E /* Unread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unread.swift; sourceTree = "<group>"; };
+		1E1D919D296DBCE50071B66E /* Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
+		1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListItemScreen.swift; sourceTree = "<group>"; };
+		1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagListItemScreen.swift; sourceTree = "<group>"; };
+		1E3E31C8296DEC0D007A46CA /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		1E3E31CB296DED9B007A46CA /* Migrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
+		1E3E31CD296E266C007A46CA /* UnreadLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreadLinks.swift; sourceTree = "<group>"; };
+		1E3E31CF296E2954007A46CA /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
+		1E3E31D1296E3013007A46CA /* AddUnreadListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUnreadListScreen.swift; sourceTree = "<group>"; };
 		1ED9C60C296C1EEC0000CDB4 /* NanoChanllenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChanllenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeApp.swift; sourceTree = "<group>"; };
-		1ED9C611296C1EEC0000CDB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1ED9C613296C1EED0000CDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED9C616296C1EED0000CDB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1ED9C618296C1EED0000CDB4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1ED9C61B296C1EED0000CDB4 /* NanoChanllenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NanoChanllenge.xcdatamodel; sourceTree = "<group>"; };
 		1ED9C621296C1EED0000CDB4 /* NanoChanllengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChanllengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C625296C1EED0000CDB4 /* NanoChanllengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeTests.swift; sourceTree = "<group>"; };
 		1ED9C62B296C1EED0000CDB4 /* NanoChanllengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChanllengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C62F296C1EED0000CDB4 /* NanoChanllengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeUITests.swift; sourceTree = "<group>"; };
 		1ED9C631296C1EED0000CDB4 /* NanoChanllengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		1ED9C640296C1F340000CDB4 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		1ED9C646296C1F7A0000CDB4 /* LinkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPage.swift; sourceTree = "<group>"; };
+		1ED9C650296C31550000CDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1ED9C652296C315A0000CDB4 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1ED9C660296CA6640000CDB4 /* TagList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagList.swift; sourceTree = "<group>"; };
+		1ED9C663296D89F30000CDB4 /* AddTagListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED9C65E296C5DEA0000CDB4 /* RealmSwift in Frameworks */,
+				1ED9C65C296C5DEA0000CDB4 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +106,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E3E31CA296DED6D007A46CA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E3E31CB296DED9B007A46CA /* Migrator.swift */,
+			);
+			name = Utils;
+			path = "Preview Content/Utils";
+			sourceTree = "<group>";
+		};
 		1ED9C603296C1EEC0000CDB4 = {
 			isa = PBXGroup;
 			children = (
+				1ED9C651296C31550000CDB4 /* Localizable.strings */,
 				1ED9C60E296C1EEC0000CDB4 /* NanoChanllenge */,
 				1ED9C624296C1EED0000CDB4 /* NanoChanllengeTests */,
 				1ED9C62E296C1EED0000CDB4 /* NanoChanllengeUITests */,
@@ -99,11 +140,18 @@
 			isa = PBXGroup;
 			children = (
 				1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */,
-				1ED9C611296C1EEC0000CDB4 /* ContentView.swift */,
 				1ED9C613296C1EED0000CDB4 /* Assets.xcassets */,
-				1ED9C618296C1EED0000CDB4 /* Persistence.swift */,
-				1ED9C61A296C1EED0000CDB4 /* NanoChanllenge.xcdatamodeld */,
+				1E3E31CA296DED6D007A46CA /* Utils */,
 				1ED9C615296C1EED0000CDB4 /* Preview Content */,
+				1ED9C662296D89C60000CDB4 /* Screens */,
+				1ED9C65F296CA64F0000CDB4 /* Models */,
+				1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */,
+				1E3E31CF296E2954007A46CA /* Favourite.swift */,
+				1E1D919B296DBCDB0071B66E /* Unread.swift */,
+				1E1D919D296DBCE50071B66E /* Read.swift */,
+				1E1D9199296DB3820071B66E /* Category.swift */,
+				1ED9C646296C1F7A0000CDB4 /* LinkPage.swift */,
+				1ED9C640296C1F340000CDB4 /* ContentView-ViewModel.swift */,
 			);
 			path = NanoChanllenge;
 			sourceTree = "<group>";
@@ -133,6 +181,27 @@
 			path = NanoChanllengeUITests;
 			sourceTree = "<group>";
 		};
+		1ED9C65F296CA64F0000CDB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1ED9C660296CA6640000CDB4 /* TagList.swift */,
+				1E3E31C8296DEC0D007A46CA /* LinkList.swift */,
+				1E3E31CD296E266C007A46CA /* UnreadLinks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ED9C662296D89C60000CDB4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1ED9C663296D89F30000CDB4 /* AddTagListScreen.swift */,
+				1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */,
+				1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */,
+				1E3E31D1296E3013007A46CA /* AddUnreadListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +218,10 @@
 			dependencies = (
 			);
 			name = NanoChanllenge;
+			packageProductDependencies = (
+				1ED9C65B296C5DEA0000CDB4 /* Realm */,
+				1ED9C65D296C5DEA0000CDB4 /* RealmSwift */,
+			);
 			productName = NanoChanllenge;
 			productReference = 1ED9C60C296C1EEC0000CDB4 /* NanoChanllenge.app */;
 			productType = "com.apple.product-type.application";
@@ -219,8 +292,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 1ED9C603296C1EEC0000CDB4;
+			packageReferences = (
+				1ED9C65A296C5DEA0000CDB4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 1ED9C60D296C1EEC0000CDB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED9C617296C1EED0000CDB4 /* Preview Assets.xcassets in Resources */,
+				1ED9C64F296C31550000CDB4 /* Localizable.strings in Resources */,
 				1ED9C614296C1EED0000CDB4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +341,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ED9C61C296C1EED0000CDB4 /* NanoChanllenge.xcdatamodeld in Sources */,
-				1ED9C619296C1EED0000CDB4 /* Persistence.swift in Sources */,
-				1ED9C612296C1EEC0000CDB4 /* ContentView.swift in Sources */,
+				1E3E31D0296E2954007A46CA /* Favourite.swift in Sources */,
+				1E1D919E296DBCE50071B66E /* Read.swift in Sources */,
+				1E3E31C5296DE517007A46CA /* TagListItemScreen.swift in Sources */,
+				1ED9C661296CA6640000CDB4 /* TagList.swift in Sources */,
+				1ED9C664296D89F30000CDB4 /* AddTagListScreen.swift in Sources */,
+				1E3E31CE296E266C007A46CA /* UnreadLinks.swift in Sources */,
+				1ED9C647296C1F7A0000CDB4 /* LinkPage.swift in Sources */,
+				1E1D919A296DB3820071B66E /* Category.swift in Sources */,
+				1E3E31D2296E3013007A46CA /* AddUnreadListScreen.swift in Sources */,
+				1ED9C641296C1F340000CDB4 /* ContentView-ViewModel.swift in Sources */,
+				1ED9C63F296C1F0A0000CDB4 /* HomePage.swift in Sources */,
+				1E3E31C7296DE89C007A46CA /* AddTagListItemScreen.swift in Sources */,
+				1E3E31CC296DED9B007A46CA /* Migrator.swift in Sources */,
+				1E3E31C9296DEC0D007A46CA /* LinkList.swift in Sources */,
+				1E1D919C296DBCDB0071B66E /* Unread.swift in Sources */,
 				1ED9C610296C1EEC0000CDB4 /* NanoChanllengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +391,18 @@
 			targetProxy = 1ED9C62C296C1EED0000CDB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ED9C651296C31550000CDB4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED9C650296C31550000CDB4 /* en */,
+				1ED9C652296C315A0000CDB4 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1ED9C633296C1EED0000CDB4 /* Debug */ = {
@@ -586,18 +688,29 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		1ED9C61A296C1EED0000CDB4 /* NanoChanllenge.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1ED9C61B296C1EED0000CDB4 /* NanoChanllenge.xcdatamodel */,
-			);
-			currentVersion = 1ED9C61B296C1EED0000CDB4 /* NanoChanllenge.xcdatamodel */;
-			path = NanoChanllenge.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		1ED9C65A296C5DEA0000CDB4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ED9C65B296C5DEA0000CDB4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED9C65A296C5DEA0000CDB4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		1ED9C65D296C5DEA0000CDB4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED9C65A296C5DEA0000CDB4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1ED9C604296C1EEC0000CDB4 /* Project object */;
 }

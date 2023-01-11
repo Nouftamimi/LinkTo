@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct NanoChanllengeApp: App {
-    let persistenceController = PersistenceController.shared
-
+    //let persistenceController = PersistenceController.shared
+    let migrator = Migrator()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            let _ = UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+            let _ = print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.path())
+                HomePage()
         }
     }
 }
