@@ -21,7 +21,7 @@ VoiceOver accessibility
 https://user-images.githubusercontent.com/48413596/212179828-91d20177-8d04-4c75-853e-663a3735b546.mov
 
 ### Linkto - Arabic
-https://user-images.githubusercontent.com/48413596/212179017-a52e83dd-28f9-4b61-a355-bf2918a2eedf.mov
+https://user-images.githubusercontent.com/48413596/212186090-6f0c8bc3-815c-4bfb-a2f0-f30728daa7ad.mov
 
 # Challenge Summery
 An app that saves links, view them for later without ever creating an account to help people remain organized to visiting links
