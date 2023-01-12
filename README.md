@@ -1,6 +1,6 @@
 # LinkTo
 
-<img width="402" alt="Screenshot 1444-06-19 at 5 26 19 PM" src="https://user-images.githubusercontent.com/48413596/212092687-1e8a02cf-6bdd-4f95-a0ae-c6212ca4232c.png">
+<img width="402" alt="Screenshot 1444-06-19 at 5 26 19 PM" src="https://user-images.githubusercontent.com/48413596/212186267-3e793ab4-6642-4d72-ba04-019f7fcfec88.png">
 
 # Challenge Statment
 Make an inclusive solution that help people to remain organized.
