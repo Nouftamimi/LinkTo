@@ -37,7 +37,7 @@ struct AddTagListScreen: View {
                                 Text("Save").frame(maxWidth: .infinity)
                             }.buttonStyle(.bordered)
 
-                        }
+                        }.accessibility(label: Text("Enter the title"))
                         
                     }
 

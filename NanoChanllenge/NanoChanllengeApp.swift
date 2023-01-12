@@ -16,7 +16,10 @@ struct NanoChanllengeApp: App {
         WindowGroup {
             let _ = UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
             let _ = print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.path())
-                HomePage()
+            
+                LaunchScreenView()
+                
         }
     }
 }
+

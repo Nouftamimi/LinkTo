@@ -20,33 +20,53 @@ struct TagListItemScreen: View {
 //        NavigationView
 //        {
         VStack {
+            
             List {
                 ForEach(tagList.items) { item in
-                    NavigationLink{
+                    NavigationLink {
                         Button(action: { self.showStackoverflow = true }) {
-                                   Text("Open website")
-                               }
+                                   
+                            LottieView(lottieFile: "lf30_editor_4dkmovvk (1)").overlay(
+                                Text("Open website")
+                            )
+                        }.accessibility(label: Text("Open website")).foregroundColor(.black).font(.title2)
+                        
                                .sheet(isPresented: self.$showStackoverflow) {
                                    SFSafariViewWrapper(url: URL(string: item.URLLink)!)
                                }
                     }label: {
-                        VStack {
-                            Text(item.titleLink)
-                            Text(item.URLLink)
-                        }
+                        HStack {
+                           
+                            VStack(alignment: .leading){
+                                Text(item.titleLink)
+                                Text(item.URLLink)
+                            }.foregroundColor(.black)
+                            Spacer()
+                         
+                        }.foregroundColor(.white)
+                            .padding()
+                            .background(Color("BabyBlue"))
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        
                     }
                     
+                    
                 }
+                
             }
+            .background(.white)
+
+            .scrollContentBackground(.hidden)
             
-            
-            .navigationTitle(tagList.title)
+            .navigationTitle(tagList.title)                .accessibilityAddTraits(.isHeader)
+            .toolbarBackground( Color("Blue"),for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
         } .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
                     showSheet = true
                 } label: {
-                    Image(systemName: "plus")
+                    Image(systemName: "plus.app").foregroundColor(.white).font(.title)
                 }
             }
         }.sheet(isPresented: $showSheet){
