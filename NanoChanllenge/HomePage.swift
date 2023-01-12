@@ -25,14 +25,15 @@ struct HomePage: View {
     var body: some View {
         NavigationView{
             VStack{
-                VStack{
+                VStack(alignment: .leading){
                     //Spacer()
-                    HStack {
+                    VStack {
                         
                         Text("My Tags")
-                            
                             .bold()
-                        .font(.title2)
+                            .padding()
+                            .font(.title2)
+                            .padding()
                     }.accessibility(label: Text("My Tags"))
                     
                     ScrollView{
@@ -73,17 +74,19 @@ struct HomePage: View {
                             Button{
                                 showSheet = true
                             }label: {
-                                Image(systemName: "plus.app").foregroundColor(.white).font(.title)
+                                Image(systemName: "plus.square").foregroundColor(.black).font(.title2)
                                     .accessibility(label: Text("plus"))
                             }
                         }
+                        
+                        
                     }
                     
                     
                 }
             }.navigationTitle("Link To")
                 .accessibilityAddTraits(.isHeader)
-                .toolbarBackground( Color("Blue"),for: .navigationBar)
+                .toolbarBackground( Color("BabyBlue"),for: .navigationBar)
                 .toolbarBackground(.visible, for: .navigationBar)
             
             //.background(Color.pink)

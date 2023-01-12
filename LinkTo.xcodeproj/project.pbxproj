@@ -56,13 +56,13 @@
 		1E3E31D5296EEA48007A46CA /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		1E672FE4296F8FF500531128 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		1E672FEA296F927800531128 /* lf30_editor_4dkmovvk (1).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "lf30_editor_4dkmovvk (1).json"; path = "../../../../Downloads/lf30_editor_4dkmovvk (1).json"; sourceTree = "<group>"; };
-		1ED9C60C296C1EEC0000CDB4 /* NanoChanllenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChanllenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED9C60C296C1EEC0000CDB4 /* LinkTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeApp.swift; sourceTree = "<group>"; };
 		1ED9C613296C1EED0000CDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED9C616296C1EED0000CDB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1ED9C621296C1EED0000CDB4 /* NanoChanllengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChanllengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED9C621296C1EED0000CDB4 /* LinkToTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkToTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C625296C1EED0000CDB4 /* NanoChanllengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeTests.swift; sourceTree = "<group>"; };
-		1ED9C62B296C1EED0000CDB4 /* NanoChanllengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChanllengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED9C62B296C1EED0000CDB4 /* LinkToUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkToUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C62F296C1EED0000CDB4 /* NanoChanllengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeUITests.swift; sourceTree = "<group>"; };
 		1ED9C631296C1EED0000CDB4 /* NanoChanllengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
@@ -125,9 +125,9 @@
 		1ED9C60D296C1EEC0000CDB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1ED9C60C296C1EEC0000CDB4 /* NanoChanllenge.app */,
-				1ED9C621296C1EED0000CDB4 /* NanoChanllengeTests.xctest */,
-				1ED9C62B296C1EED0000CDB4 /* NanoChanllengeUITests.xctest */,
+				1ED9C60C296C1EEC0000CDB4 /* LinkTo.app */,
+				1ED9C621296C1EED0000CDB4 /* LinkToTests.xctest */,
+				1ED9C62B296C1EED0000CDB4 /* LinkToUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1ED9C60B296C1EEC0000CDB4 /* NanoChanllenge */ = {
+		1ED9C60B296C1EEC0000CDB4 /* LinkTo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ED9C635296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "NanoChanllenge" */;
+			buildConfigurationList = 1ED9C635296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "LinkTo" */;
 			buildPhases = (
 				1ED9C608296C1EEC0000CDB4 /* Sources */,
 				1ED9C609296C1EEC0000CDB4 /* Frameworks */,
@@ -210,19 +210,19 @@
 			);
 			dependencies = (
 			);
-			name = NanoChanllenge;
+			name = LinkTo;
 			packageProductDependencies = (
 				1ED9C65B296C5DEA0000CDB4 /* Realm */,
 				1ED9C65D296C5DEA0000CDB4 /* RealmSwift */,
 				1E672FE2296F8FC300531128 /* Lottie */,
 			);
 			productName = NanoChanllenge;
-			productReference = 1ED9C60C296C1EEC0000CDB4 /* NanoChanllenge.app */;
+			productReference = 1ED9C60C296C1EEC0000CDB4 /* LinkTo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1ED9C620296C1EED0000CDB4 /* NanoChanllengeTests */ = {
+		1ED9C620296C1EED0000CDB4 /* LinkToTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ED9C638296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "NanoChanllengeTests" */;
+			buildConfigurationList = 1ED9C638296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "LinkToTests" */;
 			buildPhases = (
 				1ED9C61D296C1EED0000CDB4 /* Sources */,
 				1ED9C61E296C1EED0000CDB4 /* Frameworks */,
@@ -233,14 +233,14 @@
 			dependencies = (
 				1ED9C623296C1EED0000CDB4 /* PBXTargetDependency */,
 			);
-			name = NanoChanllengeTests;
+			name = LinkToTests;
 			productName = NanoChanllengeTests;
-			productReference = 1ED9C621296C1EED0000CDB4 /* NanoChanllengeTests.xctest */;
+			productReference = 1ED9C621296C1EED0000CDB4 /* LinkToTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1ED9C62A296C1EED0000CDB4 /* NanoChanllengeUITests */ = {
+		1ED9C62A296C1EED0000CDB4 /* LinkToUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ED9C63B296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "NanoChanllengeUITests" */;
+			buildConfigurationList = 1ED9C63B296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "LinkToUITests" */;
 			buildPhases = (
 				1ED9C627296C1EED0000CDB4 /* Sources */,
 				1ED9C628296C1EED0000CDB4 /* Frameworks */,
@@ -251,9 +251,9 @@
 			dependencies = (
 				1ED9C62D296C1EED0000CDB4 /* PBXTargetDependency */,
 			);
-			name = NanoChanllengeUITests;
+			name = LinkToUITests;
 			productName = NanoChanllengeUITests;
-			productReference = 1ED9C62B296C1EED0000CDB4 /* NanoChanllengeUITests.xctest */;
+			productReference = 1ED9C62B296C1EED0000CDB4 /* LinkToUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -279,7 +279,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1ED9C607296C1EEC0000CDB4 /* Build configuration list for PBXProject "NanoChanllenge" */;
+			buildConfigurationList = 1ED9C607296C1EEC0000CDB4 /* Build configuration list for PBXProject "LinkTo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -297,9 +297,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1ED9C60B296C1EEC0000CDB4 /* NanoChanllenge */,
-				1ED9C620296C1EED0000CDB4 /* NanoChanllengeTests */,
-				1ED9C62A296C1EED0000CDB4 /* NanoChanllengeUITests */,
+				1ED9C60B296C1EEC0000CDB4 /* LinkTo */,
+				1ED9C620296C1EED0000CDB4 /* LinkToTests */,
+				1ED9C62A296C1EED0000CDB4 /* LinkToUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,12 +374,12 @@
 /* Begin PBXTargetDependency section */
 		1ED9C623296C1EED0000CDB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ED9C60B296C1EEC0000CDB4 /* NanoChanllenge */;
+			target = 1ED9C60B296C1EEC0000CDB4 /* LinkTo */;
 			targetProxy = 1ED9C622296C1EED0000CDB4 /* PBXContainerItemProxy */;
 		};
 		1ED9C62D296C1EED0000CDB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ED9C60B296C1EEC0000CDB4 /* NanoChanllenge */;
+			target = 1ED9C60B296C1EEC0000CDB4 /* LinkTo */;
 			targetProxy = 1ED9C62C296C1EED0000CDB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -522,6 +522,7 @@
 				DEVELOPMENT_TEAM = AK4J6WF9ZA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LinkTo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -532,12 +533,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nouf.NanoChanllenge;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nouf.LinkTo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -552,6 +556,7 @@
 				DEVELOPMENT_TEAM = AK4J6WF9ZA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LinkTo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -562,12 +567,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nouf.NanoChanllenge;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nouf.LinkTo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -586,7 +594,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoChanllenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NanoChanllenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkTo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkTo";
 			};
 			name = Debug;
 		};
@@ -605,7 +613,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoChanllenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NanoChanllenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkTo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkTo";
 			};
 			name = Release;
 		};
@@ -646,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ED9C607296C1EEC0000CDB4 /* Build configuration list for PBXProject "NanoChanllenge" */ = {
+		1ED9C607296C1EEC0000CDB4 /* Build configuration list for PBXProject "LinkTo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ED9C633296C1EED0000CDB4 /* Debug */,
@@ -655,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ED9C635296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "NanoChanllenge" */ = {
+		1ED9C635296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "LinkTo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ED9C636296C1EED0000CDB4 /* Debug */,
@@ -664,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ED9C638296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "NanoChanllengeTests" */ = {
+		1ED9C638296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "LinkToTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ED9C639296C1EED0000CDB4 /* Debug */,
@@ -673,7 +681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ED9C63B296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "NanoChanllengeUITests" */ = {
+		1ED9C63B296C1EED0000CDB4 /* Build configuration list for PBXNativeTarget "LinkToUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ED9C63C296C1EED0000CDB4 /* Debug */,
