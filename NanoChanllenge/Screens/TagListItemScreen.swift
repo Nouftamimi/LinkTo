@@ -21,18 +21,18 @@ struct TagListItemScreen: View {
 //        {
         
         VStack (alignment: .leading){
-            Text("My Links")
-          .padding(30)
-            .bold()
-            .font(.title2)
-            //.padding()
-            
+            HStack{
+                Text("My Links")
+                    .padding()
+                    .bold()
+                    .font(.title2)
+                //.padding()
+            }
             List {
                 ForEach(tagList.items) { item in
                     NavigationLink {
                         Button(action: { self.showStackoverflow = true }) {
                                    
-//                            LottieView(lottieFile: "lf30_editor_4dkmovvk (1)").overlay(
                             SFSafariViewWrapper(url: URL(string: item.URLLink)!)
                             
                                 //Text("Open website")

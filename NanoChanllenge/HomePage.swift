@@ -24,10 +24,12 @@ struct HomePage: View {
    
     var body: some View {
         NavigationView{
+            
             VStack{
+                
                 VStack(alignment: .leading){
                     //Spacer()
-                    VStack {
+                    HStack {
                         
                         Text("My Tags")
                             .bold()
@@ -37,6 +39,7 @@ struct HomePage: View {
                     }.accessibility(label: Text("My Tags"))
                     
                     ScrollView{
+                        
                         LazyVGrid (columns: [GridItem(.fixed(180)), GridItem(.fixed(180))]){
                             //Section(header: Text("Tags")){
                             ForEach(tagList, id: \.id) { veggies in
@@ -44,6 +47,8 @@ struct HomePage: View {
                                     TagListItemScreen(tagList: veggies)
                                 } label: {
                                     VStack{
+                                        
+                                        
                                        // NavigationLink(destination: LinkPage()){
                                         Circle()
                                             .fill(colorCircle.randomElement()!)

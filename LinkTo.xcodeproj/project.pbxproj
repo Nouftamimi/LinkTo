@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E27A8012970849800548096 /* LinkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27A8002970849800548096 /* LinkPage.swift */; };
 		1E3E31C5296DE517007A46CA /* TagListItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */; };
 		1E3E31C7296DE89C007A46CA /* AddTagListItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */; };
 		1E3E31C9296DEC0D007A46CA /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31C8296DEC0D007A46CA /* LinkList.swift */; };
 		1E3E31CC296DED9B007A46CA /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31CB296DED9B007A46CA /* Migrator.swift */; };
 		1E3E31D6296EEA48007A46CA /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E31D5296EEA48007A46CA /* LaunchScreenView.swift */; };
-		1E672FE3296F8FC300531128 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1E672FE2296F8FC300531128 /* Lottie */; };
-		1E672FE5296F8FF500531128 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E672FE4296F8FF500531128 /* LottieView.swift */; };
-		1E672FEB296F927800531128 /* lf30_editor_4dkmovvk (1).json in Resources */ = {isa = PBXBuildFile; fileRef = 1E672FEA296F927800531128 /* lf30_editor_4dkmovvk (1).json */; };
 		1ED9C610296C1EEC0000CDB4 /* NanoChanllengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */; };
 		1ED9C614296C1EED0000CDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C613296C1EED0000CDB4 /* Assets.xcassets */; };
 		1ED9C617296C1EED0000CDB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C616296C1EED0000CDB4 /* Preview Assets.xcassets */; };
@@ -23,7 +21,6 @@
 		1ED9C632296C1EED0000CDB4 /* NanoChanllengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C631296C1EED0000CDB4 /* NanoChanllengeUITestsLaunchTests.swift */; };
 		1ED9C63F296C1F0A0000CDB4 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */; };
 		1ED9C641296C1F340000CDB4 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C640296C1F340000CDB4 /* ContentView-ViewModel.swift */; };
-		1ED9C647296C1F7A0000CDB4 /* LinkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C646296C1F7A0000CDB4 /* LinkPage.swift */; };
 		1ED9C64F296C31550000CDB4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C651296C31550000CDB4 /* Localizable.strings */; };
 		1ED9C65C296C5DEA0000CDB4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED9C65B296C5DEA0000CDB4 /* Realm */; };
 		1ED9C65E296C5DEA0000CDB4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED9C65D296C5DEA0000CDB4 /* RealmSwift */; };
@@ -49,13 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E27A8002970849800548096 /* LinkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkPage.swift; path = Models/LinkPage.swift; sourceTree = "<group>"; };
 		1E3E31C4296DE517007A46CA /* TagListItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListItemScreen.swift; sourceTree = "<group>"; };
 		1E3E31C6296DE89C007A46CA /* AddTagListItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagListItemScreen.swift; sourceTree = "<group>"; };
 		1E3E31C8296DEC0D007A46CA /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		1E3E31CB296DED9B007A46CA /* Migrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
 		1E3E31D5296EEA48007A46CA /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
-		1E672FE4296F8FF500531128 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		1E672FEA296F927800531128 /* lf30_editor_4dkmovvk (1).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "lf30_editor_4dkmovvk (1).json"; path = "../../../../Downloads/lf30_editor_4dkmovvk (1).json"; sourceTree = "<group>"; };
 		1ED9C60C296C1EEC0000CDB4 /* LinkTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED9C60F296C1EEC0000CDB4 /* NanoChanllengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeApp.swift; sourceTree = "<group>"; };
 		1ED9C613296C1EED0000CDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,7 +63,6 @@
 		1ED9C631296C1EED0000CDB4 /* NanoChanllengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChanllengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		1ED9C640296C1F340000CDB4 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
-		1ED9C646296C1F7A0000CDB4 /* LinkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPage.swift; sourceTree = "<group>"; };
 		1ED9C650296C31550000CDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1ED9C652296C315A0000CDB4 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1ED9C660296CA6640000CDB4 /* TagList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagList.swift; sourceTree = "<group>"; };
@@ -81,7 +76,6 @@
 			files = (
 				1ED9C65E296C5DEA0000CDB4 /* RealmSwift in Frameworks */,
 				1ED9C65C296C5DEA0000CDB4 /* Realm in Frameworks */,
-				1E672FE3296F8FC300531128 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,10 +136,8 @@
 				1ED9C662296D89C60000CDB4 /* Screens */,
 				1ED9C65F296CA64F0000CDB4 /* Models */,
 				1ED9C63E296C1F0A0000CDB4 /* HomePage.swift */,
-				1E672FEA296F927800531128 /* lf30_editor_4dkmovvk (1).json */,
-				1E672FE4296F8FF500531128 /* LottieView.swift */,
-				1ED9C646296C1F7A0000CDB4 /* LinkPage.swift */,
 				1ED9C640296C1F340000CDB4 /* ContentView-ViewModel.swift */,
+				1E27A8002970849800548096 /* LinkPage.swift */,
 				1E3E31D5296EEA48007A46CA /* LaunchScreenView.swift */,
 			);
 			path = NanoChanllenge;
@@ -214,7 +206,6 @@
 			packageProductDependencies = (
 				1ED9C65B296C5DEA0000CDB4 /* Realm */,
 				1ED9C65D296C5DEA0000CDB4 /* RealmSwift */,
-				1E672FE2296F8FC300531128 /* Lottie */,
 			);
 			productName = NanoChanllenge;
 			productReference = 1ED9C60C296C1EEC0000CDB4 /* LinkTo.app */;
@@ -311,7 +302,6 @@
 			files = (
 				1ED9C617296C1EED0000CDB4 /* Preview Assets.xcassets in Resources */,
 				1ED9C64F296C31550000CDB4 /* Localizable.strings in Resources */,
-				1E672FEB296F927800531128 /* lf30_editor_4dkmovvk (1).json in Resources */,
 				1ED9C614296C1EED0000CDB4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,14 +331,13 @@
 				1ED9C661296CA6640000CDB4 /* TagList.swift in Sources */,
 				1E3E31D6296EEA48007A46CA /* LaunchScreenView.swift in Sources */,
 				1ED9C664296D89F30000CDB4 /* AddTagListScreen.swift in Sources */,
-				1ED9C647296C1F7A0000CDB4 /* LinkPage.swift in Sources */,
 				1ED9C641296C1F340000CDB4 /* ContentView-ViewModel.swift in Sources */,
+				1E27A8012970849800548096 /* LinkPage.swift in Sources */,
 				1ED9C63F296C1F0A0000CDB4 /* HomePage.swift in Sources */,
 				1E3E31C7296DE89C007A46CA /* AddTagListItemScreen.swift in Sources */,
 				1E3E31CC296DED9B007A46CA /* Migrator.swift in Sources */,
 				1E3E31C9296DEC0D007A46CA /* LinkList.swift in Sources */,
 				1ED9C610296C1EEC0000CDB4 /* NanoChanllengeApp.swift in Sources */,
-				1E672FE5296F8FF500531128 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +527,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -572,7 +561,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -712,11 +701,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1E672FE2296F8FC300531128 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1E672FE1296F8FC300531128 /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
 		1ED9C65B296C5DEA0000CDB4 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1ED9C65A296C5DEA0000CDB4 /* XCRemoteSwiftPackageReference "realm-swift" */;

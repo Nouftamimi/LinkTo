@@ -12,7 +12,7 @@ enum AnimationState{
     case expend
 }
 struct LaunchScreenView: View {
-    
+    @Environment(\.colorScheme) var colorScheme
     @State private var isActive = false
 
     
@@ -20,11 +20,11 @@ struct LaunchScreenView: View {
     func calculate() -> Double{
         switch animationState {
         case .normal:
-            return 0.5
+            return 0.2
         case .compress:
-            return 0.18
+            return 0.09
         case .expend:
-            return 5.0
+            return 0.7
         }
     }
     
