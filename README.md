@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/48413596/212179828-91d20177-8d04-4c75-
 ### Linkto - Arabic
 https://user-images.githubusercontent.com/48413596/212186090-6f0c8bc3-815c-4bfb-a2f0-f30728daa7ad.mov
 
-# Now the app is free to downlaos in app store
+# Now the app is free to download in app store
 https://apps.apple.com/sa/app/linkto/id1664633118
 
 # Challenge Summery
