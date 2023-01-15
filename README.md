@@ -23,6 +23,9 @@ https://user-images.githubusercontent.com/48413596/212179828-91d20177-8d04-4c75-
 ### Linkto - Arabic
 https://user-images.githubusercontent.com/48413596/212186090-6f0c8bc3-815c-4bfb-a2f0-f30728daa7ad.mov
 
+# Now the app is free to downlaos in app store
+https://apps.apple.com/sa/app/linkto/id1664633118
+
 # Challenge Summery
 <img width="400" alt="Three_One_The Launch_ADATWQ_2022_2023_IMAGE" src="https://user-images.githubusercontent.com/48413596/212353194-7a01293b-0844-4570-8479-de6e828670f6.png">
 
