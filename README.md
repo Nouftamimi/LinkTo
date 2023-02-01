@@ -15,7 +15,10 @@ An effortless way for people to save the links they want to view later
 
 # Tools
 VoiceOver accessibility
-https://user-images.githubusercontent.com/48413596/215912867-8cc019fb-9afc-437b-b212-916bb1aa76dd.mov
+
+https://user-images.githubusercontent.com/48413596/215913144-dc4b4e46-330e-46db-bfa9-71d473edb5a7.mov
+
+
 
 # Demo 
 ### Linkto - English
