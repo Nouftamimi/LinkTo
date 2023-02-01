@@ -15,7 +15,8 @@ An effortless way for people to save the links they want to view later
 
 # Tools
 VoiceOver accessibility
-https://github.com/Nouftamimi/LinkTo/issues/4#issue-1565182721
+https://user-images.githubusercontent.com/48413596/215912867-8cc019fb-9afc-437b-b212-916bb1aa76dd.mov
+
 # Demo 
 ### Linkto - English
 https://user-images.githubusercontent.com/48413596/212179828-91d20177-8d04-4c75-853e-663a3735b546.mov
